@@ -63,7 +63,7 @@ int kmp(char *data, char *pattern)
 int main()
 {
     char *data = "ababxbababababcdababcabddcadfdsss";
-	char *pattern = "abcabd";
+    char *pattern = "abcabd";
 
     int ret = kmp(data, pattern);
 
