@@ -29,7 +29,7 @@ int insert_sort(int *data, int length)
     int i = 0, j = 0;
     int temp = 0;
 
-    for (i = 0; i < length; i++)
+    for (i = 1; i < length; i++)
     {
         temp = data[i];
         for (j = i-1; j >= 0 && temp < data[j]; j--)
